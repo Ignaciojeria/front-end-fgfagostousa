@@ -1,6 +1,6 @@
 FROM twalter/openshift-nginx
 
-COPY fgfagostousa/ /usr/share/nginx/html
+COPY /dist/fgfagostousa/ /usr/share/nginx/html
 
 #COPY ./index.css /usr/share/nginx/html
 
